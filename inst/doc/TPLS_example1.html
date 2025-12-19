@@ -29,25 +29,26 @@ document.addEventListener('DOMContentLoaded', function(e) {
 </script>
 
 <style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
 
 
 
 <style type="text/css">
-  code {
-    white-space: pre;
-  }
-  .sourceCode {
-    overflow: visible;
-  }
+code {
+white-space: pre;
+}
+.sourceCode {
+overflow: visible;
+}
 </style>
 <style type="text/css" data-origin="pandoc">
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -63,55 +64,54 @@ pre > code.sourceCode { white-space: pre-wrap; }
 pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
-  { counter-reset: source-line 0; }
+{ counter-reset: source-line 0; }
 pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
+{ position: relative; left: -4em; counter-increment: source-line; }
 pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+color: #aaaaaa;
+}
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa; padding-left: 4px; }
 div.sourceCode
-  {   }
+{ }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-
+code span.al { color: #ff0000; font-weight: bold; } 
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.at { color: #7d9029; } 
+code span.bn { color: #40a070; } 
+code span.bu { color: #008000; } 
+code span.cf { color: #007020; font-weight: bold; } 
+code span.ch { color: #4070a0; } 
+code span.cn { color: #880000; } 
+code span.co { color: #60a0b0; font-style: italic; } 
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.do { color: #ba2121; font-style: italic; } 
+code span.dt { color: #902000; } 
+code span.dv { color: #40a070; } 
+code span.er { color: #ff0000; font-weight: bold; } 
+code span.ex { } 
+code span.fl { color: #40a070; } 
+code span.fu { color: #06287e; } 
+code span.im { color: #008000; font-weight: bold; } 
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.kw { color: #007020; font-weight: bold; } 
+code span.op { color: #666666; } 
+code span.ot { color: #007020; } 
+code span.pp { color: #bc7a00; } 
+code span.sc { color: #4070a0; } 
+code span.ss { color: #bb6688; } 
+code span.st { color: #4070a0; } 
+code span.va { color: #19177c; } 
+code span.vs { color: #4070a0; } 
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } 
 </style>
 <script>
 // apply pandoc div.sourceCode style to pre.sourceCode instead
@@ -120,13 +120,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   for (var i = 0; i < sheets.length; i++) {
     if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
     try { var rules = sheets[i].cssRules; } catch (e) { continue; }
-    for (var j = 0; j < rules.length; j++) {
+    var j = 0;
+    while (j < rules.length) {
       var rule = rules[j];
       // check if there is a div.sourceCode rule
-      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") {
+        j++;
+        continue;
+      }
       var style = rule.style.cssText;
       // check if color or background-color is set
-      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
+      if (rule.style.color === '' && rule.style.backgroundColor === '') {
+        j++;
+        continue;
+      }
       // replace div.sourceCode by a pre.sourceCode rule
       sheets[i].deleteRule(j);
       sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
@@ -342,25 +349,25 @@ TPLS_example2.</p>
 </div>
 <div id="loading-library-and-tutorial-data" class="section level2">
 <h2>Loading library and tutorial data</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(TPLSr)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Loading required package: plotly</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Loading required package: ggplot2</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Attaching package: &#39;plotly&#39;</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; The following object is masked from &#39;package:ggplot2&#39;:</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;     last_plot</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; The following object is masked from &#39;package:stats&#39;:</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;     filter</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; The following object is masked from &#39;package:graphics&#39;:</span></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; </span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;     layout</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">attach</span>(TPLSdat)</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">library</span>(TPLSr)</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="co">#&gt; Loading required package: plotly</span></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a><span class="co">#&gt; Loading required package: ggplot2</span></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a><span class="co">#&gt; Attaching package: &#39;plotly&#39;</span></span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1"></a><span class="co">#&gt; The following object is masked from &#39;package:ggplot2&#39;:</span></span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb1-8"><a href="#cb1-8" tabindex="-1"></a><span class="co">#&gt;     last_plot</span></span>
+<span id="cb1-9"><a href="#cb1-9" tabindex="-1"></a><span class="co">#&gt; The following object is masked from &#39;package:stats&#39;:</span></span>
+<span id="cb1-10"><a href="#cb1-10" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb1-11"><a href="#cb1-11" tabindex="-1"></a><span class="co">#&gt;     filter</span></span>
+<span id="cb1-12"><a href="#cb1-12" tabindex="-1"></a><span class="co">#&gt; The following object is masked from &#39;package:graphics&#39;:</span></span>
+<span id="cb1-13"><a href="#cb1-13" tabindex="-1"></a><span class="co">#&gt; </span></span>
+<span id="cb1-14"><a href="#cb1-14" tabindex="-1"></a><span class="co">#&gt;     layout</span></span>
+<span id="cb1-15"><a href="#cb1-15" tabindex="-1"></a><span class="fu">attach</span>(TPLSdat)</span></code></pre></div>
 <p>This should load X, Y, run, subj, mask. Mask is the 3d brain image
 mask. See how many voxels there are inside the mask:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(mask)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 3714</span></span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="fu">sum</span>(mask)</span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a><span class="co">#&gt; [1] 3714</span></span></code></pre></div>
 <p>X is the single trial betas. It has 3714 columns, each of which
 corresponds to a voxel. Y is binary variable to be predicted. In this
 case, the Y was whether the participant chose left or right button.
@@ -377,93 +384,93 @@ the 3 subjects had 8 scan runs.</p>
 best tuning parameters. We will give X and Y as variables and subj to be
 used as cross-validation folds. The rest of the inputs are omitted to
 default.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>cvmdl <span class="ot">=</span> <span class="fu">TPLS_cv</span>(X,Y,subj)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Fold # 1</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 1</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 2</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 3</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 4</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 5</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 6</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 7</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 8</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 9</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 10</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 11</span></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 12</span></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 13</span></span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 14</span></span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 15</span></span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 16</span></span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 17</span></span>
-<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 18</span></span>
-<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 19</span></span>
-<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 20</span></span>
-<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 21</span></span>
-<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 22</span></span>
-<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 23</span></span>
-<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 24</span></span>
-<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 25</span></span>
-<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Fold # 2</span></span>
-<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 1</span></span>
-<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 2</span></span>
-<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 3</span></span>
-<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 4</span></span>
-<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 5</span></span>
-<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 6</span></span>
-<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 7</span></span>
-<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 8</span></span>
-<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 9</span></span>
-<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 10</span></span>
-<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 11</span></span>
-<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 12</span></span>
-<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 13</span></span>
-<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 14</span></span>
-<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 15</span></span>
-<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 16</span></span>
-<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 17</span></span>
-<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 18</span></span>
-<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 19</span></span>
-<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 20</span></span>
-<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 21</span></span>
-<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 22</span></span>
-<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 23</span></span>
-<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 24</span></span>
-<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 25</span></span>
-<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Fold # 3</span></span>
-<span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 1</span></span>
-<span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 2</span></span>
-<span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 3</span></span>
-<span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 4</span></span>
-<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 5</span></span>
-<span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 6</span></span>
-<span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 7</span></span>
-<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 8</span></span>
-<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 9</span></span>
-<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 10</span></span>
-<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 11</span></span>
-<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 12</span></span>
-<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 13</span></span>
-<span id="cb3-68"><a href="#cb3-68" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 14</span></span>
-<span id="cb3-69"><a href="#cb3-69" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 15</span></span>
-<span id="cb3-70"><a href="#cb3-70" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 16</span></span>
-<span id="cb3-71"><a href="#cb3-71" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 17</span></span>
-<span id="cb3-72"><a href="#cb3-72" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 18</span></span>
-<span id="cb3-73"><a href="#cb3-73" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 19</span></span>
-<span id="cb3-74"><a href="#cb3-74" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 20</span></span>
-<span id="cb3-75"><a href="#cb3-75" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 21</span></span>
-<span id="cb3-76"><a href="#cb3-76" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 22</span></span>
-<span id="cb3-77"><a href="#cb3-77" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 23</span></span>
-<span id="cb3-78"><a href="#cb3-78" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 24</span></span>
-<span id="cb3-79"><a href="#cb3-79" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 25</span></span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a>cvmdl <span class="ot">=</span> <span class="fu">TPLS_cv</span>(X,Y,subj)</span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a><span class="co">#&gt; Fold # 1</span></span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 1</span></span>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 2</span></span>
+<span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 3</span></span>
+<span id="cb3-6"><a href="#cb3-6" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 4</span></span>
+<span id="cb3-7"><a href="#cb3-7" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 5</span></span>
+<span id="cb3-8"><a href="#cb3-8" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 6</span></span>
+<span id="cb3-9"><a href="#cb3-9" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 7</span></span>
+<span id="cb3-10"><a href="#cb3-10" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 8</span></span>
+<span id="cb3-11"><a href="#cb3-11" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 9</span></span>
+<span id="cb3-12"><a href="#cb3-12" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 10</span></span>
+<span id="cb3-13"><a href="#cb3-13" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 11</span></span>
+<span id="cb3-14"><a href="#cb3-14" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 12</span></span>
+<span id="cb3-15"><a href="#cb3-15" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 13</span></span>
+<span id="cb3-16"><a href="#cb3-16" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 14</span></span>
+<span id="cb3-17"><a href="#cb3-17" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 15</span></span>
+<span id="cb3-18"><a href="#cb3-18" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 16</span></span>
+<span id="cb3-19"><a href="#cb3-19" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 17</span></span>
+<span id="cb3-20"><a href="#cb3-20" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 18</span></span>
+<span id="cb3-21"><a href="#cb3-21" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 19</span></span>
+<span id="cb3-22"><a href="#cb3-22" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 20</span></span>
+<span id="cb3-23"><a href="#cb3-23" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 21</span></span>
+<span id="cb3-24"><a href="#cb3-24" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 22</span></span>
+<span id="cb3-25"><a href="#cb3-25" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 23</span></span>
+<span id="cb3-26"><a href="#cb3-26" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 24</span></span>
+<span id="cb3-27"><a href="#cb3-27" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 25</span></span>
+<span id="cb3-28"><a href="#cb3-28" tabindex="-1"></a><span class="co">#&gt; Fold # 2</span></span>
+<span id="cb3-29"><a href="#cb3-29" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 1</span></span>
+<span id="cb3-30"><a href="#cb3-30" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 2</span></span>
+<span id="cb3-31"><a href="#cb3-31" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 3</span></span>
+<span id="cb3-32"><a href="#cb3-32" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 4</span></span>
+<span id="cb3-33"><a href="#cb3-33" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 5</span></span>
+<span id="cb3-34"><a href="#cb3-34" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 6</span></span>
+<span id="cb3-35"><a href="#cb3-35" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 7</span></span>
+<span id="cb3-36"><a href="#cb3-36" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 8</span></span>
+<span id="cb3-37"><a href="#cb3-37" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 9</span></span>
+<span id="cb3-38"><a href="#cb3-38" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 10</span></span>
+<span id="cb3-39"><a href="#cb3-39" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 11</span></span>
+<span id="cb3-40"><a href="#cb3-40" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 12</span></span>
+<span id="cb3-41"><a href="#cb3-41" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 13</span></span>
+<span id="cb3-42"><a href="#cb3-42" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 14</span></span>
+<span id="cb3-43"><a href="#cb3-43" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 15</span></span>
+<span id="cb3-44"><a href="#cb3-44" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 16</span></span>
+<span id="cb3-45"><a href="#cb3-45" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 17</span></span>
+<span id="cb3-46"><a href="#cb3-46" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 18</span></span>
+<span id="cb3-47"><a href="#cb3-47" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 19</span></span>
+<span id="cb3-48"><a href="#cb3-48" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 20</span></span>
+<span id="cb3-49"><a href="#cb3-49" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 21</span></span>
+<span id="cb3-50"><a href="#cb3-50" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 22</span></span>
+<span id="cb3-51"><a href="#cb3-51" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 23</span></span>
+<span id="cb3-52"><a href="#cb3-52" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 24</span></span>
+<span id="cb3-53"><a href="#cb3-53" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 25</span></span>
+<span id="cb3-54"><a href="#cb3-54" tabindex="-1"></a><span class="co">#&gt; Fold # 3</span></span>
+<span id="cb3-55"><a href="#cb3-55" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 1</span></span>
+<span id="cb3-56"><a href="#cb3-56" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 2</span></span>
+<span id="cb3-57"><a href="#cb3-57" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 3</span></span>
+<span id="cb3-58"><a href="#cb3-58" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 4</span></span>
+<span id="cb3-59"><a href="#cb3-59" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 5</span></span>
+<span id="cb3-60"><a href="#cb3-60" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 6</span></span>
+<span id="cb3-61"><a href="#cb3-61" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 7</span></span>
+<span id="cb3-62"><a href="#cb3-62" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 8</span></span>
+<span id="cb3-63"><a href="#cb3-63" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 9</span></span>
+<span id="cb3-64"><a href="#cb3-64" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 10</span></span>
+<span id="cb3-65"><a href="#cb3-65" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 11</span></span>
+<span id="cb3-66"><a href="#cb3-66" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 12</span></span>
+<span id="cb3-67"><a href="#cb3-67" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 13</span></span>
+<span id="cb3-68"><a href="#cb3-68" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 14</span></span>
+<span id="cb3-69"><a href="#cb3-69" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 15</span></span>
+<span id="cb3-70"><a href="#cb3-70" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 16</span></span>
+<span id="cb3-71"><a href="#cb3-71" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 17</span></span>
+<span id="cb3-72"><a href="#cb3-72" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 18</span></span>
+<span id="cb3-73"><a href="#cb3-73" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 19</span></span>
+<span id="cb3-74"><a href="#cb3-74" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 20</span></span>
+<span id="cb3-75"><a href="#cb3-75" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 21</span></span>
+<span id="cb3-76"><a href="#cb3-76" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 22</span></span>
+<span id="cb3-77"><a href="#cb3-77" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 23</span></span>
+<span id="cb3-78"><a href="#cb3-78" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 24</span></span>
+<span id="cb3-79"><a href="#cb3-79" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 25</span></span></code></pre></div>
 <p>That should have been pretty quick. Now we need to evaluate
 prediction performance across the three folds We will use AUC of ROC as
 the prediction performance metric By default we trained TPLS model with
 25 components so we will try out 1 to 25 components in cross
 validation</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>compvec <span class="ot">=</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">25</span></span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a>compvec <span class="ot">=</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">25</span></span></code></pre></div>
 <p>For thresholding, let’s try 0 to 1 in 0.05 increments</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>threshvec <span class="ot">=</span> <span class="fu">seq</span>(<span class="dv">0</span>,<span class="dv">1</span>,<span class="at">by=</span><span class="fl">0.05</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a>threshvec <span class="ot">=</span> <span class="fu">seq</span>(<span class="dv">0</span>,<span class="dv">1</span>,<span class="at">by=</span><span class="fl">0.05</span>)</span></code></pre></div>
 <p>subfold is not always necessary but you can use it if you want your
 performance in each fold to be calculated by an average of subfolds
 rather than in whole. For example, in this case, instead of estimating
@@ -472,12 +479,12 @@ within each of the 8 runs and then average them to obtain subject-level
 performance metric. You may want to do this because there are often
 spurious baseline shifts in estimated activity across runs that can make
 their alignment poor.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>subfold <span class="ot">=</span> run;</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a>subfold <span class="ot">=</span> run;</span></code></pre></div>
 <p>now let’s evaluate</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>cvstats <span class="ot">=</span> <span class="fu">evalTuningParam</span>(cvmdl,<span class="st">&#39;AUC&#39;</span>,X,Y,compvec,threshvec,subfold);</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Fold # 1</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Fold # 2</span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Fold # 3</span></span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a>cvstats <span class="ot">=</span> <span class="fu">evalTuningParam</span>(cvmdl,<span class="st">&#39;AUC&#39;</span>,X,Y,compvec,threshvec,subfold);</span>
+<span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a><span class="co">#&gt; Fold # 1</span></span>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a><span class="co">#&gt; Fold # 2</span></span>
+<span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a><span class="co">#&gt; Fold # 3</span></span></code></pre></div>
 <p>We can now plot to look at the cross-validation performance as a
 function of number of components (1:25) and threshold (0:.05:1). When
 you do this yourself the 3d plot is interactive so feel free to move it
@@ -487,65 +494,65 @@ around.</p>
 indicated by blue dot (Max Perf) should be at threshold 0.1 (10% of
 voxels left) and at 8 components. This information is also available in
 the cvstats structure.</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>cvstats<span class="sc">$</span>compval_best</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 8</span></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>cvstats<span class="sc">$</span>threshval_best</span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 0.1</span></span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a>cvstats<span class="sc">$</span>compval_best</span>
+<span id="cb9-2"><a href="#cb9-2" tabindex="-1"></a><span class="co">#&gt; [1] 8</span></span>
+<span id="cb9-3"><a href="#cb9-3" tabindex="-1"></a>cvstats<span class="sc">$</span>threshval_best</span>
+<span id="cb9-4"><a href="#cb9-4" tabindex="-1"></a><span class="co">#&gt; [1] 0.1</span></span></code></pre></div>
 </div>
 <div id="final-model" class="section level2">
 <h2>Final Model</h2>
 <p>Now that we know the best tuning parameter, let’s fit the final model
 using this tuning parameter. You can specify it to fit up to 8
 components since that’s only what we need.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>mdl <span class="ot">=</span> <span class="fu">TPLS</span>(X,Y,<span class="dv">8</span>);</span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 1</span></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 2</span></span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 3</span></span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 4</span></span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 5</span></span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 6</span></span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 7</span></span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 8</span></span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a>mdl <span class="ot">=</span> <span class="fu">TPLS</span>(X,Y,<span class="dv">8</span>);</span>
+<span id="cb10-2"><a href="#cb10-2" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 1</span></span>
+<span id="cb10-3"><a href="#cb10-3" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 2</span></span>
+<span id="cb10-4"><a href="#cb10-4" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 3</span></span>
+<span id="cb10-5"><a href="#cb10-5" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 4</span></span>
+<span id="cb10-6"><a href="#cb10-6" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 5</span></span>
+<span id="cb10-7"><a href="#cb10-7" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 6</span></span>
+<span id="cb10-8"><a href="#cb10-8" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 7</span></span>
+<span id="cb10-9"><a href="#cb10-9" tabindex="-1"></a><span class="co">#&gt; Calculating Comp # 8</span></span></code></pre></div>
 <p>See how much covariance between X and Y each PLS component explains,
 and also see the correlation between each PLS component and Y</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(mdl<span class="sc">$</span>pctVar); <span class="fu">plot</span>(mdl<span class="sc">$</span>scoreCorr)</span></code></pre></div>
-<p><img src="data:image/png;base64,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" /><!-- --><img src="data:image/png;base64,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" /><!-- --></p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="fu">plot</span>(mdl<span class="sc">$</span>pctVar); <span class="fu">plot</span>(mdl<span class="sc">$</span>scoreCorr)</span></code></pre></div>
+<p><img role="img" src="data:image/png;base64,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" /><!-- --><img role="img" src="data:image/png;base64,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" /><!-- --></p>
 <p>Now let’s extract the whole-brain map.</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>compval <span class="ot">=</span> cvstats<span class="sc">$</span>compval_best;</span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>threshval <span class="ot">=</span> cvstats<span class="sc">$</span>threshval_best;</span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>result <span class="ot">=</span> <span class="fu">makePredictor</span>(mdl,compval,threshval);</span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a>compval <span class="ot">=</span> cvstats<span class="sc">$</span>compval_best;</span>
+<span id="cb12-2"><a href="#cb12-2" tabindex="-1"></a>threshval <span class="ot">=</span> cvstats<span class="sc">$</span>threshval_best;</span>
+<span id="cb12-3"><a href="#cb12-3" tabindex="-1"></a>result <span class="ot">=</span> <span class="fu">makePredictor</span>(mdl,compval,threshval);</span></code></pre></div>
 <p>voila! you now have a whole-brain predictor. You can check how many
 voxels have non-zero coefficients by doing this.</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sum</span>(result<span class="sc">$</span>betamap<span class="sc">!=</span><span class="dv">0</span>)</span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1] 372</span></span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="fu">sum</span>(result<span class="sc">$</span>betamap<span class="sc">!=</span><span class="dv">0</span>)</span>
+<span id="cb13-2"><a href="#cb13-2" tabindex="-1"></a><span class="co">#&gt; [1] 372</span></span></code></pre></div>
 <p>To me, it shows 372, which is about 1/10th of all the voxels (since
 that was our thresholding tuning parameter)</p>
 <p>You can easily use this betamap to predict trials by just multiplying
 this betamap to each single-trial beta images.</p>
 <p>For example:</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>prediction <span class="ot">=</span> X <span class="sc">%*%</span> result<span class="sc">$</span>betamap;</span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>stats<span class="sc">::</span><span class="fu">cor</span>(prediction,Y) <span class="co"># 0.63 correlation! In-sample though so not that impressive</span></span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;           [,1]</span></span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; [1,] 0.6281298</span></span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(prediction,Y)</span></code></pre></div>
-<p><img src="data:image/png;base64,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" /><!-- --></p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a>prediction <span class="ot">=</span> X <span class="sc">%*%</span> result<span class="sc">$</span>betamap;</span>
+<span id="cb14-2"><a href="#cb14-2" tabindex="-1"></a>stats<span class="sc">::</span><span class="fu">cor</span>(prediction,Y) <span class="co"># 0.63 correlation! In-sample though so not that impressive</span></span>
+<span id="cb14-3"><a href="#cb14-3" tabindex="-1"></a><span class="co">#&gt;           [,1]</span></span>
+<span id="cb14-4"><a href="#cb14-4" tabindex="-1"></a><span class="co">#&gt; [1,] 0.6281298</span></span>
+<span id="cb14-5"><a href="#cb14-5" tabindex="-1"></a><span class="fu">plot</span>(prediction,Y)</span></code></pre></div>
+<p><img role="img" src="data:image/png;base64,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" /><!-- --></p>
 <p>You can also use the built-in function for prediction as well</p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>prediction <span class="ot">=</span> <span class="fu">TPLSpredict</span>(mdl,compval,threshval,X)</span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a>prediction <span class="ot">=</span> <span class="fu">TPLSpredict</span>(mdl,compval,threshval,X)</span></code></pre></div>
 <p>If you use the built-in prediction function, it will also add the
 bias(intercept) to your prediction. This may or may not be useful to you
 since fMRI data is unitless. But, if you’re trying to access accuracy,
 you would want to incorporate the bias so that you can interpret the
 prediction as a probability</p>
 <p>Now let’s look at the resulting whole-brain predictor</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>mymap <span class="ot">=</span> mask</span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>mymap[mask<span class="sc">==</span><span class="dv">1</span>] <span class="ot">=</span> result<span class="sc">$</span>betamap</span></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a>mymap <span class="ot">=</span> mask</span>
+<span id="cb16-2"><a href="#cb16-2" tabindex="-1"></a>mymap[mask<span class="sc">==</span><span class="dv">1</span>] <span class="ot">=</span> result<span class="sc">$</span>betamap</span></code></pre></div>
 <p>If you have a nifti toolbox, you can save this out into a nifti file
 and look at it. For now, let’s look at the slice where there should be
 motor activity</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">heatmap</span>(<span class="dv">1</span><span class="sc">*</span>mask[,<span class="dv">15</span>,], <span class="at">Colv =</span> <span class="cn">NA</span>, <span class="at">Rowv =</span> <span class="cn">NA</span>,<span class="at">scale =</span><span class="st">&quot;none&quot;</span>)</span></code></pre></div>
-<p><img src="data:image/png;base64,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" /><!-- --></p>
-<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">heatmap</span>(mymap[,<span class="dv">15</span>,], <span class="at">Colv =</span> <span class="cn">NA</span>, <span class="at">Rowv =</span> <span class="cn">NA</span>,<span class="at">scale =</span><span class="st">&quot;none&quot;</span>)</span></code></pre></div>
-<p><img src="data:image/png;base64,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" /><!-- --></p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a><span class="fu">heatmap</span>(<span class="dv">1</span><span class="sc">*</span>mask[,<span class="dv">15</span>,], <span class="at">Colv =</span> <span class="cn">NA</span>, <span class="at">Rowv =</span> <span class="cn">NA</span>,<span class="at">scale =</span><span class="st">&quot;none&quot;</span>)</span></code></pre></div>
+<p><img role="img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAMAAAAjXV6yAAAAaVBMVEUAAAAAADoAAGYAOjoAOpAAZrY6AAA6ADo6AGY6OpA6ZrY6kLY6kNtmAABmADpmAGZmtv99ACWQOgCQOjqQOmaQkDqQtpCQ29uQ2/+2ZgC2///bkDrb////tmb/25D//7b//8j//9v///+i+hLNAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAGHElEQVR4nO3c63raRhRGYbmN3aTFLThJa4yBoPu/yGqETkjgz3iPNGh7rR9t8OMQ5rU4jcXOcnqzLPUNuPUAEgWgX54CSNSsbPeQZcs832RZ9tsLQE31wvZ/P+e7P57z9dJw+HgG2t4X/1kvD9+fATqpu7jiKNo/ZuU9DaC6ztoOT4vyXmY6ihwD7R8X1Z8sj0N+gXYPDQtAnXo+2y+v+eEHT/Nt9cLC65/w8Fz8/87yROYWKFYAAQTQSQCJABIBJAJIBJCoWVm1Yba17Zf5Bao2zHZfX/LNPUBt9cKqDbPwx4AEUF13ceEoKuII6tZZW9gwC49FvFnt1i6t2TCrDiSAypqVsWF2vp5P2DDjCOpWL4wNswsZLAAC6BdAMoBEAIluAmhlbgSZKoBEzcqq/SDjm3m/QPUJVPk2wYbZHIDq/aD13b8cQd26izu+CeMudlJnbcf9IIBOa5dW7wcBdFKzsmY/aEIgO8z4YAMfgM4D1ftBAF0AihVAAAEEEEBzBxoPJj4UQO8HKl8A7R4m2O6YJ1C5EbR/XOabL68ADYGOG0G7b1P86nmWQMe7GEACqLyLWX457x0oPEj/NfonDucMVLT/Z+xzFKcDskP1gMLjz/jnKM4YKJwnbXmWdw0UJYAAAggggAAC6GakAHo/UPlZseb3hwD1gZozp7aONswiAjVnTpm2gxwDNe/mTe9VPwGQ7QD6BECmR6DPALReXFh6RKCEUGYg65xA90DGhyDXQFECCCCAAALIC1ACKIBGBCpfByWZSD4PoON+UJKJ5LMAOu4HpZlIPgug+vygFBPJZwSUZiL5jIDKJp8fBFB6mA9D9YCmnUg+Q6BpByzNDChKAAEEEEAAzR0oIUwdQKKPANUnknv6QN3FPgBU7gdNM3A7tc7qI0DtZKXxB26n1lkZ7mL5FAO3U+usLEBTDNxOrbOyHUGePpJ5MQvQ+PtBqXVWtv2g6QZu3zLMBSD3+0EWoCgBBBBAAAEEEEA3AwXQ+4GqtxouJnGOAVR9oG7KieSzAqo2zCadSD4rIO5iAAHkDigB1NW3DSCAogFFCSCAAAIIIC9AE8IANDqQdRS5dyDzKHLvQOZJ2wB9ciDzKHLvQOZR5O6BcuMo8muAEsCYgcyjyL0DmUeRuweKFEAAAQQQQACN7gIQQJGBzKPIvQOFjIOA3QPF2A5yDRTjvapnoCgHkGegGI9AroGMo8hvE+jjMAMg84BA70BxHoIcA0UKIIAAAgiguQOND2WHAehaIOsocvdA1lHk3oEivdPwC2QeRe4dyDyK3DtQWYTHIYBiAsWDigfSr16YeRS5dyDz6Cn3QJECCCCATgJIBJDoJoBuOYBEzcqso8i9A5lHkXsHqpEA6tVdHEfQmdqlGUeR+weKc/6Ca6Bk+0G3XL0w8yhy70BJ94NuOTsJQAAB9EYAiQASASQCSASQqLO2GLsdnoGMo8jdA1lHkbsH4i52PoBEAInGAPIaQCKApgggEUAigEQAiQASASQ6D7R7yBbr9gSkMBM1fHqmHoaxfxxMfVi/Pc+od4UTXGOszgIdnpb5uvinw0zm6h8v58bu/qxvzM/eLQ+/BN8Uf+nC+Sb9K5zgGmMVgMqPVmXZ6RGzXbTTdIv/lzekc7n4AXe2o4437dtr8w29a+xf4QTXGBOo+HGcHuDhxxNqjqDHu/9+vOTdI+p4m+sVlR/M2t63E2l619i/wgmuMVbHu1j/NIgwzrs4wtuf6OEpK25s9wjLe38h3Pu37dkCvWscXOHo1xgrnsVEAIlmA1Q8rYe7W3Nf7F8efiFOcwEKD8rhcbpef//y8AuRGgdo8KQ8eCFx9TeU617fd18XdC8PvxCpkY6g4QuHhe0bqqf1ze9fX85eHn4hUmPdxQYvHPrnU177DdWbkU17iJ1eHn4hTnN5DEoWQCKARACJABIBJAJIBJAIIBFAIoBEAIkAEgEkAkgEkAggEUAigEQAiQASASQCSASQCCARQCKARACJABIBJAJIBJAIIBFAIoBEAIkAEgEkAkgEkAggEUAigEQAiQASASQCSASQCCARQCKARACJABIBJAJIBJAIIBFAIoBE/wPgDs0IiWE+PgAAAABJRU5ErkJggg==" /><!-- --></p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a><span class="fu">heatmap</span>(mymap[,<span class="dv">15</span>,], <span class="at">Colv =</span> <span class="cn">NA</span>, <span class="at">Rowv =</span> <span class="cn">NA</span>,<span class="at">scale =</span><span class="st">&quot;none&quot;</span>)</span></code></pre></div>
+<p><img role="img" src="data:image/png;base64,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" /><!-- --></p>
 <p>It isn’t much, but you’re looking at a coronal slice of the brain
 right about where the motor cortex is (rotated 90 deg to right). You can
 see the left motor cortex has positive coefficients while the right
